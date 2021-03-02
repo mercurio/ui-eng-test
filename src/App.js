@@ -3,7 +3,6 @@ import logo from './logo.svg'
 import './App.css'
 
 import ProgressBar from './components/ProgressBar'
-import KrellGauge from './components/KrellGauge'
 
 const low = 40
 const high = 400
