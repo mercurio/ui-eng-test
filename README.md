@@ -17,16 +17,16 @@ that consists of multiple progress bars in series, each showing a power of ten m
 
 ## The Assignment
 
-1 Create a branch for your changes
-1 Create a new component called `KrellGauge` with at least these 2 properties:
-  1 `count` the number of progress bars
-  1 `value` the value to show across all the bars, each bar showing a range 10 times the previous bar
-1 In `App.js` create a new state value called `krell` that starts at 0 and increments by 1 each tick
-1 Demo your `KrellGauge` below the existing demo of the progress bar in `App.js` with a `count` of 10 and using `krell` as the value
-1 In `App.js` add a checkbox with the label `Monster from the Id mode`. Enabling this checkbox should cause `krell` to be multiplied by 1.1 each tick (false selects the default: increment `krell` by 1 each tick)
-1 When everything works, create a patchset:
+1. Create a branch for your changes
+1. Create a new component called `KrellGauge` with at least these 2 properties:
+  1. `count` the number of progress bars
+  1. `value` the value to show across all the bars, each bar showing a range 10 times the previous bar
+1. In `App.js` create a new state value called `krell` that starts at 0 and increments by 1 each tick
+1. Demo your `KrellGauge` below the existing demo of the progress bar in `App.js` with a `count` of 10 and using `krell` as the value
+1. In `App.js` add a checkbox with the label `Monster from the Id mode`. Enabling this checkbox should cause `krell` to be multiplied by 1.1 each tick (false selects the default: increment `krell` by 1 each tick)
+1. When everything works, create a patchset:
   * `git diff main <your-branch> > ui-eng-test-<your-name>.patch`
-1 Email your patch file to us (we'll have exchanged numerous emails by this point)
+1. Email your patch file to us (we'll have exchanged numerous emails by this point)
 
 ## Rules
 
