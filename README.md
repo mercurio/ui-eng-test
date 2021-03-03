@@ -25,6 +25,8 @@ that consists of multiple progress bars in series, each showing a power of ten m
 1. Demo your `KrellGauge` below the existing demo of the progress bar in `App.js` with a `count` of 10 and using `krell` as the value
 1. In `App.js` add a checkbox with the label `Monster from the Id mode`. Enabling this checkbox should cause `krell` to be multiplied by 1.1 each tick (false selects the default: increment `krell` by 1 each tick)
 1. When everything works, create a patchset:
+    * `git add .`
+    * `git commit`
     * `git diff main <your-branch> > ui-eng-test-<your-name>.patch`
 1. Email your patch file to us (we'll have exchanged numerous emails by this point)
 
