@@ -1,11 +1,10 @@
 # Showcase IDX UI Engineer Hiring Project
 
-This is a hiring project for our [UI Engineer] (https://jobs.lever.co/showcaseidx/78478505-8661-4dd6-a7cf-c7b510b697f1) position.
+This is a hiring project for our [UI Engineer](https://jobs.lever.co/showcaseidx/78478505-8661-4dd6-a7cf-c7b510b697f1) position.
 If you apply, we'll ask you to do this project so we can assess your ability to do the kind of front-end work we do at Showcase IDX. We intend this to be a short project that you can complete in about an hour (maybe less) on your own.
 
 This is a React app written to demonstrate a progress bar. We like you to add a new component called `KrellGauge`
-that consists of multiple progress bars in series, each showing a power of ten more than the previous. See [Krell gauge] 
-(https://www.youtube.com/watch?v=fE1aOHRwbuk).
+that consists of multiple progress bars in series, each showing a power of ten more than the previous. See [Krell gauge](https://www.youtube.com/watch?v=fE1aOHRwbuk).
 
 ## Setup
 
