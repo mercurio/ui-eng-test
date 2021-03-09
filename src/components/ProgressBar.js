@@ -37,7 +37,6 @@ class ProgressBar extends Component {
    * Render the progress bar HTML
    */
   render() {
-    debugger
     const rho = this._computeRho(this.props.value)
     const percent = Math.round(rho * 100)
 
