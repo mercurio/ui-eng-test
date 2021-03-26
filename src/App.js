@@ -10,7 +10,7 @@ const step = 4
 
 class App extends Component {
   /*
-   * Contruct the app's state
+   * Construct the app's state
    */
   constructor(props) {
     super(props)
