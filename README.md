@@ -4,7 +4,7 @@ This is a hiring project for our [UI Engineer](https://jobs.lever.co/showcaseidx
 If you apply, we'll ask you to do this project so we can assess your ability to do the kind of front-end work we do at Showcase IDX. We intend this to be a short project that you can complete in about an hour (maybe less) on your own.
 
 This is a React app written to demonstrate a progress bar component called `ProgressBar`. We like you to add a new component called `KrellGauge`
-that consists of multiple `ProgressBar`s in series, each showing a range a power of ten more than the previous (10, 100, 1000, ...). See [Krell gauge](https://www.youtube.com/watch?v=fE1aOHRwbuk).
+that consists of multiple `ProgressBar`s in series, each showing a range a power of ten more than the previous (1..10, 11..100, 101..1000, and so on) See [Krell gauge](https://www.youtube.com/watch?v=fE1aOHRwbuk).
 
 ## Setup
 
@@ -19,7 +19,8 @@ that consists of multiple `ProgressBar`s in series, each showing a range a power
 1. Create a branch for your changes
 1. Create a new component called `KrellGauge` with at least these 2 properties:
     1. `count` the number of progress bars
-    1. `value` the value to show across all the bars, each bar showing a range 10 times the previous bar
+    1. `value` the value to show across all the bars
+    The first ProgressBar should have a low..high of 1..10, the second 11..100, the third 101..1000, and so on
 1. In `App.js` create a new state value called `krell` that starts at 0 and increments by 1 each tick
 1. Demo your `KrellGauge` below the existing demo of the progress bar in `App.js` with a `count` of 10 and using `krell` as the value
 1. In `App.js` add a checkbox with the label `Monster from the Id mode`. Enabling this checkbox should cause `krell` to be multiplied by 1.1 each tick (false selects the default: increment `krell` by 1 each tick)
