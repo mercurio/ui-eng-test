@@ -31,7 +31,8 @@ that consists of multiple `ProgressBar`s in series, each showing a range a power
 
 ## Rules
 
-- Don't Panic! We want you to succeed, and this shouldn't take a long time. Feel free to ask questions and to use any references you would normally use in your work.
+- Don't Panic! We want you to succeed, and this shouldn't take a long time (not more than an hour). Since it's a small project, we'll be looking closely at the *quality* of your code.
+- Feel free to ask questions and to use any references you would normally use in your work.
 - That said, we do expect this to be entirely your own work.  References are OK, collaboration is not.
 - Anything not specified above is free for you to implement how you see fit. For example, the spec doesn't say anything about layout, so feel free to lay things out any way you like, or not at all.
   
